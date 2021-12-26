@@ -50,7 +50,7 @@
             // 
             this.PasswordLengthNumericUpDown.Location = new System.Drawing.Point(34, 82);
             this.PasswordLengthNumericUpDown.Minimum = new decimal(new int[] {
-            10,
+            1,
             0,
             0,
             0});
