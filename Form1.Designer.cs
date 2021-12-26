@@ -42,6 +42,7 @@
             this.GenerationResultLabel = new System.Windows.Forms.Label();
             this.CopyPasswordButton = new System.Windows.Forms.Button();
             this.AllOptionsCheckBox = new System.Windows.Forms.CheckBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -197,11 +198,24 @@
             this.AllOptionsCheckBox.UseVisualStyleBackColor = true;
             this.AllOptionsCheckBox.CheckedChanged += new System.EventHandler(this.AllOptionsCheckBox_CheckedChanged);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(298, 167);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(996, 13);
+            this.linkLabel1.TabIndex = 15;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjlts-wo" +
+    "IH1AhXFyaQKHVrdBikQFnoECAkQAQ&url=https%3A%2F%2Frt.pornhub.com%2F&usg=AOvVaw304B" +
+    "RTiWRMFUaoVsBCd3D8";
+            // 
             // PasswordGeneratorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(995, 383);
+            this.ClientSize = new System.Drawing.Size(810, 408);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.AllOptionsCheckBox);
             this.Controls.Add(this.CopyPasswordButton);
             this.Controls.Add(this.GenerationResultLabel);
@@ -240,6 +254,7 @@
         private System.Windows.Forms.Label GenerationResultLabel;
         private System.Windows.Forms.Button CopyPasswordButton;
         private System.Windows.Forms.CheckBox AllOptionsCheckBox;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
