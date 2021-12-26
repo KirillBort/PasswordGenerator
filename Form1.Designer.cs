@@ -49,7 +49,7 @@
             // PasswordLengthNumericUpDown
             // 
             this.PasswordLengthNumericUpDown.Location = new System.Drawing.Point(45, 101);
-            this.PasswordLengthNumericUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PasswordLengthNumericUpDown.Margin = new System.Windows.Forms.Padding(4);
             this.PasswordLengthNumericUpDown.Minimum = new decimal(new int[] {
             1,
             0,
@@ -67,7 +67,7 @@
             // PasswordResultTextBox
             // 
             this.PasswordResultTextBox.Location = new System.Drawing.Point(417, 101);
-            this.PasswordResultTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PasswordResultTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.PasswordResultTextBox.Name = "PasswordResultTextBox";
             this.PasswordResultTextBox.ReadOnly = true;
             this.PasswordResultTextBox.Size = new System.Drawing.Size(892, 22);
@@ -76,7 +76,7 @@
             // GeneratePasswordButton
             // 
             this.GeneratePasswordButton.Location = new System.Drawing.Point(979, 410);
-            this.GeneratePasswordButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GeneratePasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.GeneratePasswordButton.Name = "GeneratePasswordButton";
             this.GeneratePasswordButton.Size = new System.Drawing.Size(160, 28);
             this.GeneratePasswordButton.TabIndex = 2;
@@ -88,7 +88,7 @@
             // 
             this.EnglishLettersCheckBox.AutoSize = true;
             this.EnglishLettersCheckBox.Location = new System.Drawing.Point(45, 233);
-            this.EnglishLettersCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EnglishLettersCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.EnglishLettersCheckBox.Name = "EnglishLettersCheckBox";
             this.EnglishLettersCheckBox.Size = new System.Drawing.Size(124, 21);
             this.EnglishLettersCheckBox.TabIndex = 3;
@@ -100,7 +100,7 @@
             // 
             this.CapitalEnglishLettersCheckBox.AutoSize = true;
             this.CapitalEnglishLettersCheckBox.Location = new System.Drawing.Point(45, 262);
-            this.CapitalEnglishLettersCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CapitalEnglishLettersCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.CapitalEnglishLettersCheckBox.Name = "CapitalEnglishLettersCheckBox";
             this.CapitalEnglishLettersCheckBox.Size = new System.Drawing.Size(171, 21);
             this.CapitalEnglishLettersCheckBox.TabIndex = 4;
@@ -112,7 +112,7 @@
             // 
             this.RussianLettersCheckBox.AutoSize = true;
             this.RussianLettersCheckBox.Location = new System.Drawing.Point(45, 290);
-            this.RussianLettersCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RussianLettersCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.RussianLettersCheckBox.Name = "RussianLettersCheckBox";
             this.RussianLettersCheckBox.Size = new System.Drawing.Size(129, 21);
             this.RussianLettersCheckBox.TabIndex = 5;
@@ -124,7 +124,7 @@
             // 
             this.CapitalRussianLettersCheckBox.AutoSize = true;
             this.CapitalRussianLettersCheckBox.Location = new System.Drawing.Point(45, 320);
-            this.CapitalRussianLettersCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CapitalRussianLettersCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.CapitalRussianLettersCheckBox.Name = "CapitalRussianLettersCheckBox";
             this.CapitalRussianLettersCheckBox.Size = new System.Drawing.Size(176, 21);
             this.CapitalRussianLettersCheckBox.TabIndex = 6;
@@ -136,7 +136,7 @@
             // 
             this.NumbersCheckBox.AutoSize = true;
             this.NumbersCheckBox.Location = new System.Drawing.Point(45, 348);
-            this.NumbersCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NumbersCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.NumbersCheckBox.Name = "NumbersCheckBox";
             this.NumbersCheckBox.Size = new System.Drawing.Size(87, 21);
             this.NumbersCheckBox.TabIndex = 8;
@@ -148,7 +148,7 @@
             // 
             this.SpecialSymbolsCheckBox.AutoSize = true;
             this.SpecialSymbolsCheckBox.Location = new System.Drawing.Point(45, 378);
-            this.SpecialSymbolsCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SpecialSymbolsCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.SpecialSymbolsCheckBox.Name = "SpecialSymbolsCheckBox";
             this.SpecialSymbolsCheckBox.Size = new System.Drawing.Size(133, 21);
             this.SpecialSymbolsCheckBox.TabIndex = 9;
@@ -192,7 +192,7 @@
             // CopyPasswordButton
             // 
             this.CopyPasswordButton.Location = new System.Drawing.Point(1185, 410);
-            this.CopyPasswordButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CopyPasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.CopyPasswordButton.Name = "CopyPasswordButton";
             this.CopyPasswordButton.Size = new System.Drawing.Size(125, 28);
             this.CopyPasswordButton.TabIndex = 13;
@@ -204,7 +204,7 @@
             // 
             this.AllOptionsCheckBox.AutoSize = true;
             this.AllOptionsCheckBox.Location = new System.Drawing.Point(45, 406);
-            this.AllOptionsCheckBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AllOptionsCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.AllOptionsCheckBox.Name = "AllOptionsCheckBox";
             this.AllOptionsCheckBox.Size = new System.Drawing.Size(98, 21);
             this.AllOptionsCheckBox.TabIndex = 14;
@@ -231,9 +231,10 @@
             this.Controls.Add(this.GeneratePasswordButton);
             this.Controls.Add(this.PasswordResultTextBox);
             this.Controls.Add(this.PasswordLengthNumericUpDown);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PasswordGeneratorForm";
-            this.Text = "Password Generator";
+            this.Text = "Лучший генератор паролей1";
+
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -259,4 +260,3 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
-
