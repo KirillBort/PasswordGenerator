@@ -42,6 +42,7 @@
             this.GenerationResultLabel = new System.Windows.Forms.Label();
             this.CopyPasswordButton = new System.Windows.Forms.Button();
             this.AllOptionsCheckBox = new System.Windows.Forms.CheckBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.PasswordLengthNumericUpDown.Size = new System.Drawing.Size(180, 22);
             this.PasswordLengthNumericUpDown.TabIndex = 0;
             this.PasswordLengthNumericUpDown.Value = new decimal(new int[] {
-            1,
+            10,
             0,
             0,
             0});
@@ -233,6 +234,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PasswordGeneratorForm";
             this.Text = "Лучший генератор паролей1";
+
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -255,6 +257,6 @@
         private System.Windows.Forms.Label GenerationResultLabel;
         private System.Windows.Forms.Button CopyPasswordButton;
         private System.Windows.Forms.CheckBox AllOptionsCheckBox;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
-
