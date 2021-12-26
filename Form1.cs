@@ -61,7 +61,7 @@ namespace PasswordGenerator
                         case 4:
                             if (NumbersCheckBox.Checked || AllOptionsCheckBox.Checked)
                             {
-                                Password.Append(random.Next(0, 10).ToString();
+                                Password.Append(random.Next(0, 10).ToString());
                                 i++;
                             }
                             break;
