@@ -212,18 +212,6 @@
             this.AllOptionsCheckBox.UseVisualStyleBackColor = true;
             this.AllOptionsCheckBox.CheckedChanged += new System.EventHandler(this.AllOptionsCheckBox_CheckedChanged);
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(31, 371);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(996, 13);
-            this.linkLabel1.TabIndex = 15;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjlts-wo" +
-    "IH1AhXFyaQKHVrdBikQFnoECAkQAQ&url=https%3A%2F%2Frt.pornhub.com%2F&usg=AOvVaw304B" +
-    "RTiWRMFUaoVsBCd3D8";
-            // 
             // PasswordGeneratorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -245,7 +233,7 @@
             this.Controls.Add(this.PasswordLengthNumericUpDown);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PasswordGeneratorForm";
-            this.Text = "Лучший генератор паролей";
+            this.Text = "Password Generator";
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
