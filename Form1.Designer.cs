@@ -58,7 +58,7 @@
             this.PasswordLengthNumericUpDown.Size = new System.Drawing.Size(180, 22);
             this.PasswordLengthNumericUpDown.TabIndex = 0;
             this.PasswordLengthNumericUpDown.Value = new decimal(new int[] {
-            1,
+            10,
             0,
             0,
             0});
