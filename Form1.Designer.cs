@@ -77,7 +77,7 @@
             this.GeneratePasswordButton.Name = "GeneratePasswordButton";
             this.GeneratePasswordButton.Size = new System.Drawing.Size(120, 38);
             this.GeneratePasswordButton.TabIndex = 2;
-            this.GeneratePasswordButton.Text = "Сгенерировать пароль";
+            this.GeneratePasswordButton.Text = "Сгенерировать крутой пароль";
             this.GeneratePasswordButton.UseVisualStyleBackColor = true;
             this.GeneratePasswordButton.Click += new System.EventHandler(this.GeneratePasswordButton_Click);
             // 
