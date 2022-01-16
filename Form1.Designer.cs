@@ -225,7 +225,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PasswordGenerator.Properties.Resources.ImagePasword;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1327, 471);
+            this.ClientSize = new System.Drawing.Size(1454, 672);
             this.Controls.Add(this.AllOptionsCheckBox);
             this.Controls.Add(this.CopyPasswordButton);
             this.Controls.Add(this.GenerationResultLabel);
