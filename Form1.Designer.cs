@@ -42,7 +42,6 @@
             this.GenerationResultLabel = new System.Windows.Forms.Label();
             this.CopyPasswordButton = new System.Windows.Forms.Button();
             this.AllOptionsCheckBox = new System.Windows.Forms.CheckBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -198,13 +197,6 @@
             this.AllOptionsCheckBox.UseVisualStyleBackColor = true;
             this.AllOptionsCheckBox.CheckedChanged += new System.EventHandler(this.AllOptionsCheckBox_CheckedChanged);
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.Location = new System.Drawing.Point(0, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(100, 23);
-            this.linkLabel1.TabIndex = 0;
-            // 
             // PasswordGeneratorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,6 +241,5 @@
         private System.Windows.Forms.Label GenerationResultLabel;
         private System.Windows.Forms.Button CopyPasswordButton;
         private System.Windows.Forms.CheckBox AllOptionsCheckBox;
-        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
