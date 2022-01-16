@@ -242,7 +242,7 @@
             this.Controls.Add(this.PasswordLengthNumericUpDown);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PasswordGeneratorForm";
-            this.Text = "Лучший генератор паролей1";
+            this.Text = "Лучший генератор паролей";
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
