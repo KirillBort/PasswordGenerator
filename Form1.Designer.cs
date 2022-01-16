@@ -66,7 +66,8 @@
             // 
             // PasswordResultTextBox
             // 
-            this.PasswordResultTextBox.Location = new System.Drawing.Point(417, 101);
+            this.PasswordResultTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.PasswordResultTextBox.Location = new System.Drawing.Point(294, 101);
             this.PasswordResultTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.PasswordResultTextBox.Name = "PasswordResultTextBox";
             this.PasswordResultTextBox.ReadOnly = true;
@@ -75,7 +76,8 @@
             // 
             // GeneratePasswordButton
             // 
-            this.GeneratePasswordButton.Location = new System.Drawing.Point(979, 410);
+            this.GeneratePasswordButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.GeneratePasswordButton.Location = new System.Drawing.Point(733, 320);
             this.GeneratePasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.GeneratePasswordButton.Name = "GeneratePasswordButton";
             this.GeneratePasswordButton.Size = new System.Drawing.Size(160, 28);
@@ -180,6 +182,8 @@
             // 
             // GenerationResultLabel
             // 
+            this.GenerationResultLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.GenerationResultLabel.AutoSize = true;
             this.GenerationResultLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerationResultLabel.Location = new System.Drawing.Point(417, 78);
@@ -191,7 +195,8 @@
             // 
             // CopyPasswordButton
             // 
-            this.CopyPasswordButton.Location = new System.Drawing.Point(1185, 410);
+            this.CopyPasswordButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.CopyPasswordButton.Location = new System.Drawing.Point(939, 320);
             this.CopyPasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.CopyPasswordButton.Name = "CopyPasswordButton";
             this.CopyPasswordButton.Size = new System.Drawing.Size(125, 28);
@@ -225,7 +230,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PasswordGenerator.Properties.Resources.ImagePasword;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1454, 672);
+            this.ClientSize = new System.Drawing.Size(1208, 493);
             this.Controls.Add(this.AllOptionsCheckBox);
             this.Controls.Add(this.CopyPasswordButton);
             this.Controls.Add(this.GenerationResultLabel);
