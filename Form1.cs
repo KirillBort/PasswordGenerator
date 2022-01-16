@@ -19,16 +19,18 @@ namespace PasswordGenerator
 
         private void GeneratePasswordButton_Click(object sender, EventArgs e)
         {
-            if (EnglishLettersCheckBox.Checked | CapitalEnglishLettersCheckBox.Checked | RussianLettersCheckBox.Checked | CapitalRussianLettersCheckBox.Checked | NumbersCheckBox.Checked | SpecialSymbolsCheckBox.Checked | AllOptionsCheckBox.Checked != false)
+            if (EnglishLettersCheckBox.Checked | CapitalEnglishLettersCheckBox.Checked | RussianLettersCheckBox.Checked | CapitalRussianLettersCheckBox.Checked | NumbersCheckBox.Checked | SpecialSymbolsCheckBox.Checked | AllOptionsCheckBox.Checked | checkYourSimbols.Checked != false)
             {
                 var Password = new StringBuilder();
                 var random = new Random();
                 var RussianLetters = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
                 var CapitalRussianLetters = RussianLetters.ToUpper();
                 var SpecialSymbols = "!@#$%^&*()[]|";
+                var YourSimbols = textBox1;
+
                 for (int i = 0; i < PasswordLengthNumericUpDown.Value;)
                 {
-                    switch (random.Next(0, 6))
+                    switch (random.Next(0, 7))
                     {
                         case 0:
                             if (EnglishLettersCheckBox.Checked || AllOptionsCheckBox.Checked)
@@ -72,6 +74,13 @@ namespace PasswordGenerator
                                 i++;
                             }
                             break;
+                        case 6:
+                            if (checkYourSimbols.Checked || AllOptionsCheckBox.Checked)
+                            {
+                                Password.Append(YourSimbols.Text[random.Next(textBox1.Text.Length)]);
+                                i++;
+                            }
+                            break;
                     }
                 }
                 PasswordResultTextBox.Text = Password.ToString();
@@ -104,6 +113,7 @@ namespace PasswordGenerator
                 CapitalRussianLettersCheckBox.Checked = CheckedState;
                 NumbersCheckBox.Checked = CheckedState;
                 SpecialSymbolsCheckBox.Checked = CheckedState;
+                
             }
 
         }
@@ -130,6 +140,51 @@ namespace PasswordGenerator
         private void SpecialSymbolsCheckBox_Click(object sender, EventArgs e)
         {
             AllOptionsCheckBox.Checked = false;
+        }
+
+        private void PasswordLengthNumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void EnglishLettersCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkYourSimbols_CheckedChanged(object sender, EventArgs e)
+        {
+            AllOptionsCheckBox.Checked = false;
+        }
+
+        private void SpecialSymbolsCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CapitalEnglishLettersCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RussianLettersCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SelectPasswordOptionsLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumbersCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
