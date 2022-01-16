@@ -163,9 +163,9 @@
             this.SelectPasswordOptionsLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SelectPasswordOptionsLabel.Location = new System.Drawing.Point(30, 167);
             this.SelectPasswordOptionsLabel.Name = "SelectPasswordOptionsLabel";
-            this.SelectPasswordOptionsLabel.Size = new System.Drawing.Size(162, 19);
+            this.SelectPasswordOptionsLabel.Size = new System.Drawing.Size(203, 19);
             this.SelectPasswordOptionsLabel.TabIndex = 11;
-            this.SelectPasswordOptionsLabel.Text = "Select Password Options";
+            this.SelectPasswordOptionsLabel.Text = "Выберете параметры пароля";
             // 
             // GenerationResultLabel
             // 
@@ -176,7 +176,6 @@
             this.GenerationResultLabel.Size = new System.Drawing.Size(147, 19);
             this.GenerationResultLabel.TabIndex = 12;
             this.GenerationResultLabel.Text = "Результат генерации";
-            this.GenerationResultLabel.Click += new System.EventHandler(this.GenerationResultLabel_Click);
             // 
             // CopyPasswordButton
             // 

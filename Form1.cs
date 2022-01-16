@@ -131,10 +131,5 @@ namespace PasswordGenerator
         {
             AllOptionsCheckBox.Checked = false;
         }
-
-        private void GenerationResultLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
