@@ -75,9 +75,9 @@
             // 
             this.GeneratePasswordButton.Location = new System.Drawing.Point(734, 333);
             this.GeneratePasswordButton.Name = "GeneratePasswordButton";
-            this.GeneratePasswordButton.Size = new System.Drawing.Size(120, 23);
+            this.GeneratePasswordButton.Size = new System.Drawing.Size(120, 38);
             this.GeneratePasswordButton.TabIndex = 2;
-            this.GeneratePasswordButton.Text = "Generate Password";
+            this.GeneratePasswordButton.Text = "Сгенерировать пароль";
             this.GeneratePasswordButton.UseVisualStyleBackColor = true;
             this.GeneratePasswordButton.Click += new System.EventHandler(this.GeneratePasswordButton_Click);
             // 
@@ -86,9 +86,9 @@
             this.EnglishLettersCheckBox.AutoSize = true;
             this.EnglishLettersCheckBox.Location = new System.Drawing.Point(34, 189);
             this.EnglishLettersCheckBox.Name = "EnglishLettersCheckBox";
-            this.EnglishLettersCheckBox.Size = new System.Drawing.Size(95, 17);
+            this.EnglishLettersCheckBox.Size = new System.Drawing.Size(120, 17);
             this.EnglishLettersCheckBox.TabIndex = 3;
-            this.EnglishLettersCheckBox.Text = "English Letters";
+            this.EnglishLettersCheckBox.Text = "Английские буквы";
             this.EnglishLettersCheckBox.UseVisualStyleBackColor = true;
             this.EnglishLettersCheckBox.Click += new System.EventHandler(this.EnglishLettersCheckBox_Click);
             // 
@@ -97,9 +97,9 @@
             this.CapitalEnglishLettersCheckBox.AutoSize = true;
             this.CapitalEnglishLettersCheckBox.Location = new System.Drawing.Point(34, 213);
             this.CapitalEnglishLettersCheckBox.Name = "CapitalEnglishLettersCheckBox";
-            this.CapitalEnglishLettersCheckBox.Size = new System.Drawing.Size(130, 17);
+            this.CapitalEnglishLettersCheckBox.Size = new System.Drawing.Size(167, 17);
             this.CapitalEnglishLettersCheckBox.TabIndex = 4;
-            this.CapitalEnglishLettersCheckBox.Text = "Capital English Letters";
+            this.CapitalEnglishLettersCheckBox.Text = "Большие английские буквы";
             this.CapitalEnglishLettersCheckBox.UseVisualStyleBackColor = true;
             this.CapitalEnglishLettersCheckBox.Click += new System.EventHandler(this.CapitalEnglishLettersCheckBox_Click);
             // 
@@ -108,9 +108,9 @@
             this.RussianLettersCheckBox.AutoSize = true;
             this.RussianLettersCheckBox.Location = new System.Drawing.Point(34, 236);
             this.RussianLettersCheckBox.Name = "RussianLettersCheckBox";
-            this.RussianLettersCheckBox.Size = new System.Drawing.Size(99, 17);
+            this.RussianLettersCheckBox.Size = new System.Drawing.Size(102, 17);
             this.RussianLettersCheckBox.TabIndex = 5;
-            this.RussianLettersCheckBox.Text = "Russian Letters";
+            this.RussianLettersCheckBox.Text = "Русские буквы";
             this.RussianLettersCheckBox.UseVisualStyleBackColor = true;
             this.RussianLettersCheckBox.Click += new System.EventHandler(this.RussianLettersCheckBox_Click);
             // 
@@ -119,9 +119,9 @@
             this.CapitalRussianLettersCheckBox.AutoSize = true;
             this.CapitalRussianLettersCheckBox.Location = new System.Drawing.Point(34, 260);
             this.CapitalRussianLettersCheckBox.Name = "CapitalRussianLettersCheckBox";
-            this.CapitalRussianLettersCheckBox.Size = new System.Drawing.Size(134, 17);
+            this.CapitalRussianLettersCheckBox.Size = new System.Drawing.Size(149, 17);
             this.CapitalRussianLettersCheckBox.TabIndex = 6;
-            this.CapitalRussianLettersCheckBox.Text = "Capital Russian Letters";
+            this.CapitalRussianLettersCheckBox.Text = "Большие русские буквы";
             this.CapitalRussianLettersCheckBox.UseVisualStyleBackColor = true;
             this.CapitalRussianLettersCheckBox.Click += new System.EventHandler(this.CapitalRussianLettersCheckBox_Click);
             // 
@@ -130,9 +130,9 @@
             this.NumbersCheckBox.AutoSize = true;
             this.NumbersCheckBox.Location = new System.Drawing.Point(34, 283);
             this.NumbersCheckBox.Name = "NumbersCheckBox";
-            this.NumbersCheckBox.Size = new System.Drawing.Size(68, 17);
+            this.NumbersCheckBox.Size = new System.Drawing.Size(62, 17);
             this.NumbersCheckBox.TabIndex = 8;
-            this.NumbersCheckBox.Text = "Numbers";
+            this.NumbersCheckBox.Text = "Цифры";
             this.NumbersCheckBox.UseVisualStyleBackColor = true;
             this.NumbersCheckBox.Click += new System.EventHandler(this.NumbersCheckBox_Click);
             // 
@@ -141,9 +141,9 @@
             this.SpecialSymbolsCheckBox.AutoSize = true;
             this.SpecialSymbolsCheckBox.Location = new System.Drawing.Point(34, 307);
             this.SpecialSymbolsCheckBox.Name = "SpecialSymbolsCheckBox";
-            this.SpecialSymbolsCheckBox.Size = new System.Drawing.Size(103, 17);
+            this.SpecialSymbolsCheckBox.Size = new System.Drawing.Size(100, 17);
             this.SpecialSymbolsCheckBox.TabIndex = 9;
-            this.SpecialSymbolsCheckBox.Text = "Special Symbols";
+            this.SpecialSymbolsCheckBox.Text = "Спец символы";
             this.SpecialSymbolsCheckBox.UseVisualStyleBackColor = true;
             this.SpecialSymbolsCheckBox.Click += new System.EventHandler(this.SpecialSymbolsCheckBox_Click);
             // 
@@ -153,9 +153,9 @@
             this.SelectPasswordSizeLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SelectPasswordSizeLabel.Location = new System.Drawing.Point(30, 63);
             this.SelectPasswordSizeLabel.Name = "SelectPasswordSizeLabel";
-            this.SelectPasswordSizeLabel.Size = new System.Drawing.Size(139, 19);
+            this.SelectPasswordSizeLabel.Size = new System.Drawing.Size(178, 19);
             this.SelectPasswordSizeLabel.TabIndex = 10;
-            this.SelectPasswordSizeLabel.Text = "Select Password Size";
+            this.SelectPasswordSizeLabel.Text = "Выставте длинну пароля";
             // 
             // SelectPasswordOptionsLabel
             // 
@@ -184,7 +184,7 @@
             this.CopyPasswordButton.Name = "CopyPasswordButton";
             this.CopyPasswordButton.Size = new System.Drawing.Size(94, 23);
             this.CopyPasswordButton.TabIndex = 13;
-            this.CopyPasswordButton.Text = "Copy Password";
+            this.CopyPasswordButton.Text = "Скопировать";
             this.CopyPasswordButton.UseVisualStyleBackColor = true;
             this.CopyPasswordButton.Click += new System.EventHandler(this.CopyPasswordButton_Click);
             // 
@@ -193,9 +193,9 @@
             this.AllOptionsCheckBox.AutoSize = true;
             this.AllOptionsCheckBox.Location = new System.Drawing.Point(34, 330);
             this.AllOptionsCheckBox.Name = "AllOptionsCheckBox";
-            this.AllOptionsCheckBox.Size = new System.Drawing.Size(76, 17);
+            this.AllOptionsCheckBox.Size = new System.Drawing.Size(91, 17);
             this.AllOptionsCheckBox.TabIndex = 14;
-            this.AllOptionsCheckBox.Text = "All Options";
+            this.AllOptionsCheckBox.Text = "Выбрать все";
             this.AllOptionsCheckBox.UseVisualStyleBackColor = true;
             this.AllOptionsCheckBox.CheckedChanged += new System.EventHandler(this.AllOptionsCheckBox_CheckedChanged);
             // 
