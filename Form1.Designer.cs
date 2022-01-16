@@ -226,6 +226,7 @@
             this.Controls.Add(this.PasswordLengthNumericUpDown);
             this.Name = "PasswordGeneratorForm";
             this.Text = "Лучший генератор паролей1";
+            this.Load += new System.EventHandler(this.PasswordGeneratorForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PasswordLengthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -78,7 +78,7 @@ namespace PasswordGenerator
             }
             else
             {
-                MessageBox.Show("YOU DON'T CHOOSE ANY OPTION!", "OPTIONS DON'T CHOOSED", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("ВЫ НЕ ВЫБРАЛИ НИ ОДНОГО ПАРАМЕТРА!", "ПАРАМЕТРЫ НЕБЫЛИ ВЫБРАНЫ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -90,7 +90,7 @@ namespace PasswordGenerator
             }
             else
             {
-                MessageBox.Show("YOU DON'T GENERATE PASSWORD YET!", "PASSWORD DON`T GENERATED", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("ВЫ ЕШЕ НЕ СГЕНЕРИРОВАЛИ ПАРОЛЬ", "ПАРОЛЬ НЕ СГЕНИРИРОВАН", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void AllOptionsCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -130,6 +130,11 @@ namespace PasswordGenerator
         private void SpecialSymbolsCheckBox_Click(object sender, EventArgs e)
         {
             AllOptionsCheckBox.Checked = false;
+        }
+
+        private void PasswordGeneratorForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
