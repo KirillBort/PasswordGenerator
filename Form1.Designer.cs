@@ -64,7 +64,8 @@
             // 
             // PasswordResultTextBox
             // 
-            this.PasswordResultTextBox.Location = new System.Drawing.Point(313, 82);
+            this.PasswordResultTextBox.Location = new System.Drawing.Point(417, 101);
+            this.PasswordResultTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.PasswordResultTextBox.Name = "PasswordResultTextBox";
             this.PasswordResultTextBox.ReadOnly = true;
             this.PasswordResultTextBox.Size = new System.Drawing.Size(670, 20);
@@ -72,7 +73,8 @@
             // 
             // GeneratePasswordButton
             // 
-            this.GeneratePasswordButton.Location = new System.Drawing.Point(734, 333);
+            this.GeneratePasswordButton.Location = new System.Drawing.Point(979, 410);
+            this.GeneratePasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.GeneratePasswordButton.Name = "GeneratePasswordButton";
             this.GeneratePasswordButton.Size = new System.Drawing.Size(120, 38);
             this.GeneratePasswordButton.TabIndex = 2;
@@ -178,7 +180,8 @@
             // 
             // CopyPasswordButton
             // 
-            this.CopyPasswordButton.Location = new System.Drawing.Point(889, 333);
+            this.CopyPasswordButton.Location = new System.Drawing.Point(1185, 410);
+            this.CopyPasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.CopyPasswordButton.Name = "CopyPasswordButton";
             this.CopyPasswordButton.Size = new System.Drawing.Size(94, 23);
             this.CopyPasswordButton.TabIndex = 13;
@@ -201,7 +204,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(995, 383);
+            this.BackgroundImage = global::PasswordGenerator.Properties.Resources.ImagePasword;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1454, 672);
             this.Controls.Add(this.AllOptionsCheckBox);
             this.Controls.Add(this.CopyPasswordButton);
             this.Controls.Add(this.GenerationResultLabel);
